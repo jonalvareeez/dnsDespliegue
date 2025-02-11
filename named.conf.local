@@ -1,0 +1,7 @@
+zone "luodacloud.com" {
+    type master;
+    file "/etc/bind/db.luodacloud.com";  // Ruta del archivo de zona
+};
+
+include "/etc/bind/zones.rfc1918";
+
